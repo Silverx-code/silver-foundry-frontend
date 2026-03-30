@@ -4,16 +4,14 @@
   "description": "Silver AI Foundry — React/Vite Dashboard",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npx --yes vite build",
-    "preview": "node node_modules/vite/bin/vite.js preview"
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "vite": "^5.4.0"
   }
 }
